@@ -1,0 +1,76 @@
+body 
+{
+font-family: latha;
+color: white;
+background:linear-gradient(rgba(0, 0, 0, 0.95),rgba(0,0,0,0.65),rgba(0,0,0,0.38),rgba(0,0,0,0.0)) ,url(food.jpg)no-repeat;
+background-size: cover;
+background-position-x: center;
+}
+.box{
+    width: 900px;
+    float: right ;
+    border: 1px solid black;
+}
+.box ul {
+    list-style: none;
+}
+.box ul li{
+    width: 140px;
+    border: 1px solid black;
+    float: left;
+    height: 20px;
+    margin: 10px auto;
+    text-align: center;
+    position: relative;
+}
+.box ul li a
+{
+    text-decoration: none;
+    color: darkgray;
+    display: block;
+    margin-top: 2px;
+    
+}
+.box ul li:hover
+{ 
+    background-color:green;
+}
+.box ul li:hover{
+    color: white;
+}
+.box ul ul {
+    position: absolute;
+    display: none;
+}
+.box ul ul li{
+    text-align: left;
+    height: fit-content;
+    width: fit-content;
+    background-color: black;
+
+}
+.wd{
+    width: 300px;
+    height: 539px;
+    background-color: black;
+    opacity: 0.9;
+    padding: 55px;
+    margin-left: 20%;
+    align-self: center;
+}
+.wd h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 100px;
+}
+.wd h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 100px;
+}
+
+.box ul li:hover >ul{
+    display: block;
+}
+
+
